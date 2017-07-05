@@ -15,4 +15,4 @@ from core import main
 #     subprocess.Popen('mkdir -p %s'%str,stdin=subprocess.PIPE,stdout=subprocess.PIPE,shell=True)
 
 if __name__ == '__main__':
-    main
+    main.run()

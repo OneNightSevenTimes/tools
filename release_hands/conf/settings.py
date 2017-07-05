@@ -32,3 +32,6 @@ RUN_LOG_FILE = os.path.join(BASEDIR, "log", 'run.log')
 
 
 LINK = '/export/Packages/searcher/latest'
+
+#创建目录的位置
+PATH = '/home/admin/hongpeng/export/sd_ops'

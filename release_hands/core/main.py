@@ -2,8 +2,12 @@ from lib import get_opcenter_hosts
 from lib import pre
 from lib import ssh_connect
 from concurrent.futures import ThreadPoolExecutor
+from lib import pre
 #获取主机集群信息
-get_opcenter_hosts.get_result()
+def run():
+    get_opcenter_hosts.get_result()
+    obj = pre.pre_work()
+    obj.optimize()
 
 
 # passwd_list = settings.passwd

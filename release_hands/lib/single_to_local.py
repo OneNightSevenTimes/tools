@@ -9,7 +9,7 @@ class Distribute(object):
         self.msg = {'status':True,'message':'package exist'}
         self.log_obj = log_obj
         self.ssh_obj = ssh_obj
-        self.package_name = None
+        self.single_name = None
     def check(self):
         print(self.package_link)
         link = os.path.islink(self.package_link)
@@ -30,12 +30,14 @@ class Distribute(object):
     def get_package(self):
         print('cmd')
         package_time = time.strftime('%Y-%m-%d')
-        command_cvf = 'tar cvf /tmp/package_%s %s'%(package_time,self.package_name)
-        single_name = self.package_name.split('/')[-1]
+        cd_cmd = 'cd /export/Packages/searcher'
+        self.ssh_obj.cmd(cd_cmd)
+        command_cvf = 'tar cvf /tmp/package_%s %s'%(package_time,self.single_name)
+        self.single_name = self.package_name.split('/')[-1]
         print(command_cvf) 
         self.ssh_obj.cmd(command_cvf)
         print(self.cluster_path)
         try:
-            self.ssh_obj.download('/tmp/package_%s'%package_time,self.cluster_path+'/'+single_name)
+            self.ssh_obj.download('/tmp/package_%s'%package_time,self.cluster_path+'/'+self.single_name)
         except Exception as e:
             print(e)

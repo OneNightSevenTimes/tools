@@ -26,19 +26,19 @@ class pre_work(object):
 
 
     def optimize(self):
-        # pool = ThreadPoolExecutor(10)
+        pool = ThreadPoolExecutor(10)
         print(settings.del_env)
         for section in self.config.sections():
             if 'searcher' in section and settings.del_env[0] not in section and settings.del_env[1] not in section and settings.del_env[2] not in section and settings.del_env[3] not in section and settings.del_env[4] not in section:
                 print(section)
-            #     dir_name = section
-            #     host_list = config.items(section)
-            #     pool.submit(self.mkdir,dir_name,host_list)
+                dir_name = section
+                host_list = config.items(section)
+                pool.submit(self.mkdir,dir_name,host_list)
 
     def mkdir(self,dir_name,host_list):
         cur = datetime.datetime.now()
         date = str(cur.month) + '-'+str(cur.day)
-        path = '/home/admin/hongpeng/export/sd_ops/%s/%s' % (date,dir_name)
+        path = '%s/%s/%s' % (settings.PATH,date,dir_name)
         subprocess.Popen('mkdir -p %s' %path, stdin=subprocess.PIPE, stdout=subprocess.PIPE, shell=True)
         self.attend_host(host_list,path)
 
@@ -66,7 +66,6 @@ class pre_work(object):
                     print('single_ip-------------------',ip)
                     break
         passwd_list = settings.passwd
-        print(ip,passwd_list)
         msg = {'host': single_ip, 'status': 'ssh connected'}
         for passwd in passwd_list:
             log_obj = log.Logger()  # 实例化，创建文件对象，日志对象
@@ -79,7 +78,6 @@ class pre_work(object):
             except Exception as e:
                 err = traceback.format_exc()
                 log_obj.log(err, False)
-        print('ppppppppppp',path) 
         package_obj  = single_to_local.Distribute(path,single_ip,settings.LINK,log_obj,ssh_obj)
         #package_obj.check()
   
@@ -87,7 +85,7 @@ class pre_work(object):
         print('开始打包啦')
         package_obj.get_package()
         ssh_obj.close()
-        print('finished')
+
 
 
 if __name__ == '__main__':
