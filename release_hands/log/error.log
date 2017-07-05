@@ -1,0 +1,785 @@
+0
+2017-07-03 17:15:12,716  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:15:12,719  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:15:12,719  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:15:12,720  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:15:12,721  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:15:13,955  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:15:13,956  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:19:08,255  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:20:58,416  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:23:24,939  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:23:24,940  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:26:31,831  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:26:34,697  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:28:01,205  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:28:02,367  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:28:02,370  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:28:03,818  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:28:05,240  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:28:05,244  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:33:58,035  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:34:01,255  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:37:46,942  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:37:50,219  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:40:03,664  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p0
+2017-07-03 17:40:03,668  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p4
+2017-07-03 17:40:03,673  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p1
+2017-07-03 17:40:03,675  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p0
+2017-07-03 17:40:03,678  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p3
+2017-07-03 17:40:03,681  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p3
+2017-07-03 17:40:03,683  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p1
+2017-07-03 17:40:03,685  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p2
+2017-07-03 17:40:03,689  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p4
+2017-07-03 17:40:04,084  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p2
+2017-07-03 17:40:04,805  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p4
+2017-07-03 17:40:04,867  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p2
+2017-07-03 17:40:04,884  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p1
+2017-07-03 17:40:04,885  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p0
+2017-07-03 17:40:04,886  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p1
+2017-07-03 17:40:04,888  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p3
+2017-07-03 17:40:04,916  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p0
+2017-07-03 17:40:04,926  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p2
+2017-07-03 17:40:05,449  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p4
+2017-07-03 17:40:05,458  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p0
+2017-07-03 17:40:05,464  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p3
+2017-07-03 17:40:05,467  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p2
+2017-07-03 17:40:06,298  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:40:06,303  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p1
+2017-07-03 17:40:06,327  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p2
+2017-07-03 17:40:06,333  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p3
+2017-07-03 17:40:06,336  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p0
+2017-07-03 17:40:06,936  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p4
+2017-07-03 17:40:06,981  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:40:06,989  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p3
+2017-07-03 17:40:07,012  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p0
+2017-07-03 17:40:07,022  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p2
+2017-07-03 17:40:07,819  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p0
+2017-07-03 17:40:08,044  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p4
+2017-07-03 17:40:08,046  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p3
+2017-07-03 17:40:08,046  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p2
+2017-07-03 17:40:08,089  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p3
+2017-07-03 17:40:08,089  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p1
+2017-07-03 17:40:09,270  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:40:09,271  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p1
+2017-07-03 17:40:09,563  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:40:09,563  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p4
+2017-07-03 17:41:59,265  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p2
+2017-07-03 17:41:59,269  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p0
+2017-07-03 17:41:59,272  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p4
+2017-07-03 17:41:59,276  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p0
+2017-07-03 17:41:59,279  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p1
+2017-07-03 17:41:59,324  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p4
+2017-07-03 17:41:59,331  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p1
+2017-07-03 17:41:59,337  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p2
+2017-07-03 17:41:59,341  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p3
+2017-07-03 17:42:00,494  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p1
+2017-07-03 17:42:00,507  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p3
+2017-07-03 17:42:00,508  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p2
+2017-07-03 17:42:00,551  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:42:00,555  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:42:00,552  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p4
+2017-07-03 17:42:01,405  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p0
+2017-07-03 17:42:01,405  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p0
+2017-07-03 17:42:01,407  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p1
+2017-07-03 17:42:01,451  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p0
+2017-07-03 17:42:01,454  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p3
+2017-07-03 17:42:02,388  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p3
+2017-07-03 17:42:02,414  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p2
+2017-07-03 17:42:02,416  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p0
+2017-07-03 17:42:02,425  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p2
+2017-07-03 17:42:02,438  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p1
+2017-07-03 17:42:02,439  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p0
+2017-07-03 17:42:02,450  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p4
+2017-07-03 17:42:02,467  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p4
+2017-07-03 17:42:02,943  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p1
+2017-07-03 17:42:02,986  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p2
+2017-07-03 17:42:02,992  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p4
+2017-07-03 17:42:02,993  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p3
+2017-07-03 17:42:03,328  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p1
+2017-07-03 17:42:03,330  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p0
+2017-07-03 17:42:03,332  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p3
+2017-07-03 17:42:03,874  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:42:03,874  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:42:03,875  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p3
+2017-07-03 17:42:03,875  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p4
+2017-07-03 17:45:05,712  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p3
+2017-07-03 17:45:05,713  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p1
+2017-07-03 17:45:05,713  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p4
+2017-07-03 17:45:05,714  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p2
+2017-07-03 17:45:05,717  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p4
+2017-07-03 17:45:05,727  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p2
+2017-07-03 17:45:05,731  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p3
+2017-07-03 17:45:07,861  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p3
+2017-07-03 17:45:07,872  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p2
+2017-07-03 17:45:07,877  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p1
+2017-07-03 17:45:08,090  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p0
+2017-07-03 17:45:08,174  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p0
+2017-07-03 17:45:08,217  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p1
+2017-07-03 17:45:08,995  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p2
+2017-07-03 17:45:08,995  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p1
+2017-07-03 17:45:08,996  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p3
+2017-07-03 17:45:08,999  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p4
+2017-07-03 17:45:09,087  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p2
+2017-07-03 17:45:09,366  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p0
+2017-07-03 17:45:09,417  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p1
+2017-07-03 17:45:12,020  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p4
+2017-07-03 17:45:12,259  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p4
+2017-07-03 17:45:12,380  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p0
+2017-07-03 17:45:12,489  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p3
+2017-07-03 17:45:12,495  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p1
+2017-07-03 17:45:12,496  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p2
+2017-07-03 17:45:12,498  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p1
+2017-07-03 17:45:12,572  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p2
+2017-07-03 17:45:12,729  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p0
+2017-07-03 17:45:13,171  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p3
+2017-07-03 17:47:28,095  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p4
+2017-07-03 17:47:28,105  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p0
+2017-07-03 17:47:28,107  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p4
+2017-07-03 17:47:28,107  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p3
+2017-07-03 17:47:28,109  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p2
+2017-07-03 17:47:28,110  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p0
+2017-07-03 17:47:28,111  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p2
+2017-07-03 17:47:28,113  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p1
+2017-07-03 17:47:28,842  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p1
+2017-07-03 17:47:30,145  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p3
+2017-07-03 17:47:30,374  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p2
+2017-07-03 17:47:30,377  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p4
+2017-07-03 17:47:30,379  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p1
+2017-07-03 17:47:30,474  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p4
+2017-07-03 17:47:30,658  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p2
+2017-07-03 17:47:30,664  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p3
+2017-07-03 17:47:30,699  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p0
+2017-07-03 17:47:30,703  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p4
+2017-07-03 17:47:30,766  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p0
+2017-07-03 17:47:31,080  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p1
+2017-07-03 17:47:31,302  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p1
+2017-07-03 17:47:31,314  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p2
+2017-07-03 17:47:31,328  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p0
+2017-07-03 17:47:31,386  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p4
+2017-07-03 17:47:31,993  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p0
+2017-07-03 17:47:31,998  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p2
+2017-07-03 17:47:32,937  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p0
+2017-07-03 17:47:32,952  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p3
+2017-07-03 17:47:32,955  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p2
+2017-07-03 17:47:32,956  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p1
+2017-07-03 17:47:32,984  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p4
+2017-07-03 17:47:32,991  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p0
+2017-07-03 17:47:33,159  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p3
+2017-07-03 17:49:16,576  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p2
+2017-07-03 17:49:16,581  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p1
+2017-07-03 17:49:16,581  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p3
+2017-07-03 17:49:16,585  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p0
+2017-07-03 17:49:16,624  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p4
+2017-07-03 17:49:16,625  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p2
+2017-07-03 17:49:16,637  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p0
+2017-07-03 17:49:17,687  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p3
+2017-07-03 17:49:17,718  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p0
+2017-07-03 17:49:17,722  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p1
+2017-07-03 17:49:17,729  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p4
+2017-07-03 17:49:17,730  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p0
+2017-07-03 17:49:17,730  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p4
+2017-07-03 17:49:17,954  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p2
+2017-07-03 17:49:18,759  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p3
+2017-07-03 17:49:18,787  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p4
+2017-07-03 17:49:18,792  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p3
+2017-07-03 17:49:18,799  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p2
+2017-07-03 17:49:18,800  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p1
+2017-07-03 17:49:18,800  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p2
+2017-07-03 17:49:19,102  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p0
+2017-07-03 17:49:19,108  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p1
+2017-07-03 17:49:19,497  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p0
+2017-07-03 17:49:19,559  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p2
+2017-07-03 17:49:19,601  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p3
+2017-07-03 17:49:19,813  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p4
+2017-07-03 17:49:19,822  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p0
+2017-07-03 17:49:19,854  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p4
+2017-07-03 17:49:20,461  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p0
+2017-07-03 17:49:20,463  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p3
+2017-07-03 17:49:20,520  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p2
+2017-07-03 17:49:20,521  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p1
+2017-07-03 17:49:20,521  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p3
+2017-07-03 17:49:20,564  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p1
+2017-07-03 17:51:07,606  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p2
+2017-07-03 17:51:07,612  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p1
+2017-07-03 17:51:07,617  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p1
+2017-07-03 17:51:07,618  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p4
+2017-07-03 17:51:07,619  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p0
+2017-07-03 17:51:07,621  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p4
+2017-07-03 17:51:07,624  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p3
+2017-07-03 17:51:07,750  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_qq-searcher_p3
+2017-07-03 17:51:07,750  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_pc-searcher_p0
+2017-07-03 17:51:09,028  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p2
+2017-07-03 17:51:09,113  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p4
+2017-07-03 17:51:09,133  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p0
+2017-07-03 17:51:09,134  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p3
+2017-07-03 17:51:09,136  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_pc-searcher_p0
+2017-07-03 17:51:09,150  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p2
+2017-07-03 17:51:09,176  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:51:10,325  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p2
+2017-07-03 17:51:10,393  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p4
+2017-07-03 17:51:10,394  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p3
+2017-07-03 17:51:10,406  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p1
+2017-07-03 17:51:10,408  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p3
+2017-07-03 17:51:10,415  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_app-searcher_p0
+2017-07-03 17:51:12,603  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p2
+2017-07-03 17:51:12,710  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 17:51:12,711  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_weixin-searcher_p1
+2017-07-03 17:51:13,387  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p0
+2017-07-03 17:51:13,389  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p4
+2017-07-03 17:51:13,400  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p2
+2017-07-03 17:51:13,403  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p4
+2017-07-03 17:51:13,405  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p0
+2017-07-03 17:51:13,406  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p3
+2017-07-03 17:51:13,450  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p3
+2017-07-03 17:51:13,463  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-lf_qq-searcher_p1
+2017-07-03 17:51:14,001  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_app-searcher_p1
+2017-07-03 17:51:14,230  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p0
+2017-07-03 17:51:14,232  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p1
+2017-07-03 17:51:14,238  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p3
+2017-07-03 17:51:14,238  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p4
+2017-07-03 17:51:14,240  - ERROR :  package not exist on /home/admin/hongpeng/export/sd_ops/7-3/production-mjq_weixin-searcher_p2
+2017-07-03 17:56:04,676  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 17:56:08,106  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:14:05,436  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:14:05,437  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:14:08,967  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:14:08,970  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:15:00,084  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:15:03,394  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:31:05,164  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:31:08,380  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:32:05,248  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:32:10,653  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:33:54,830  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:33:57,262  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:35:20,739  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:35:21,505  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:35:21,507  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:35:23,487  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:35:23,947  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:35:23,984  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 18:54:03,193  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 18:54:04,926  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 22:19:58,558  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 22:20:02,102  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-03 22:25:08,325  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-03 22:25:10,955  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 72, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+2017-07-04 17:24:01,504  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 74, in get_single
+    log_obj.log(msg)#记录是否ssh成功
+  File "/home/admin/hongpeng/666/release_hands/lib/log.py", line 92, in log
+    self.run_logger.info(message)
+AttributeError: 'NoneType' object has no attribute 'info'
+
+2017-07-04 17:24:04,327  - ERROR :  Traceback (most recent call last):
+  File "pre.py", line 73, in get_single
+    ssh_obj.connect()
+  File "/home/admin/hongpeng/666/release_hands/lib/ssh_connect.py", line 18, in connect
+    self.transport.connect(username=self.user,password=self.pwd)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1156, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/transport.py", line 1329, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.3/site-packages/paramiko/auth_handler.py", line 217, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
