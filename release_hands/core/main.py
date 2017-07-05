@@ -1,12 +1,15 @@
-from lib import get_opcenter_hosts
+#from lib import get_host_info
 from lib import pre
+#from lib import get_host_info
 from lib import ssh_connect
 from concurrent.futures import ThreadPoolExecutor
 from lib import pre
 #获取主机集群信息
 def run():
-    get_opcenter_hosts.get_result()
+    #get_host_info.get_result()
     obj = pre.pre_work()
+    print('正常实例化')
+    print(type(obj))
     obj.optimize()
 
 

@@ -24,15 +24,11 @@ class SSH(object):
         return stdout.read()
 
     def download(self,server_path,local_path):
-        print('kaishixiazailaallalal')
         sftp = paramiko.SFTPClient.from_transport(self.transport)
-        print('我快奔溃啦')
         sftp.get(server_path,local_path)
-        print('xiazaiwanle')
 
     def upload(self,local_path,server_path):
         sftp = paramiko.SFTPClient.from_transport(self.transport)
-        print('开始上传啦',local_path,server_path)
         sftp.put(local_path, server_path)
 
     def close(self):

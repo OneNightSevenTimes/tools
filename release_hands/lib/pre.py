@@ -1,10 +1,6 @@
 #根据今天发布的环境生成对应的目录和主机名
 import os
 import sys
-BASEDIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(BASEDIR)
-
-
 import configparser
 from conf import settings
 import subprocess
@@ -26,14 +22,16 @@ class pre_work(object):
 
 
     def optimize(self):
-        pool = ThreadPoolExecutor(10)
-        print(settings.del_env)
-        for section in self.config.sections():
-            if 'searcher' in section and settings.del_env[0] not in section and settings.del_env[1] not in section and settings.del_env[2] not in section and settings.del_env[3] not in section and settings.del_env[4] not in section:
-                print(section)
-                dir_name = section
-                host_list = config.items(section)
-                pool.submit(self.mkdir,dir_name,host_list)
+        try:
+            pool = ThreadPoolExecutor(10)
+            for section in self.config.sections():
+                #if 'searcher' in section and settings.del_env[0] not in section and settings.del_env[1] not in section and settings.del_env[2] not in section and settings.del_env[3] not in section and settings.del_env[4] not in section:
+                if 'searcher' in section:
+                    dir_name = section
+                    host_list = config.items(section)
+                    pool.submit(self.mkdir,dir_name,host_list)
+        except Exception as e:
+            print(e)
 
     def mkdir(self,dir_name,host_list):
         cur = datetime.datetime.now()
@@ -63,7 +61,6 @@ class pre_work(object):
             for index,single_ip in enumerate(f2):
                 if index == 1:
                     ip = single_ip
-                    print('single_ip-------------------',ip)
                     break
         passwd_list = settings.passwd
         msg = {'host': single_ip, 'status': 'ssh connected'}
@@ -73,7 +70,6 @@ class pre_work(object):
                 ssh_obj = ssh_connect.SSH(single_ip, 22, 'root', passwd)
                 ssh_obj.connect()
                 log_obj.log(msg)#记录是否ssh成功
-                print('connected %s'%single_ip)
                 break
             except Exception as e:
                 err = traceback.format_exc()
@@ -82,7 +78,6 @@ class pre_work(object):
         #package_obj.check()
   
         package_obj.get_package_name()
-        print('开始打包啦')
         package_obj.get_package()
         ssh_obj.close()
 
