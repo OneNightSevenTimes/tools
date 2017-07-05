@@ -26,12 +26,14 @@ class pre_work(object):
 
 
     def optimize(self):
-        pool = ThreadPoolExecutor(10)
+        # pool = ThreadPoolExecutor(10)
+        print(settings.del_env)
         for section in self.config.sections():
-            if 'searcher' in section and 'production' in section and 'coupon' not in section and 'jos' not in section:
-                dir_name = section
-                host_list = config.items(section)
-                pool.submit(self.mkdir,dir_name,host_list)
+            if 'searcher' in section and settings.del_env[0] not in section and settings.del_env[1] not in section and settings.del_env[2] not in section and settings.del_env[3] not in section and settings.del_env[4] not in section:
+                print(section)
+            #     dir_name = section
+            #     host_list = config.items(section)
+            #     pool.submit(self.mkdir,dir_name,host_list)
 
     def mkdir(self,dir_name,host_list):
         cur = datetime.datetime.now()

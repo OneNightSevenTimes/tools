@@ -63,3 +63,6 @@ def get_result():
 
     #Create a file for ansible
     create_ansible_hosts(ansible_hosts,'hosts.txt')
+
+if __name__ == '__main__':
+    get_result()
